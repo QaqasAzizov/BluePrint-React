@@ -1,11 +1,13 @@
-
-
 // Images
 import Cap from "../images/cap.png";
 import Tshirt from "../images/t-shirt.png";
 
 // Components
 import Product from "./Product";
+
+//Fake Products Data
+
+const fakeProducts = [{ id: 1, category: "Caps" , name:"Varsity Cap" , price:13.99 , Image: "Cap"  }];
 
 const Products = () => {
   return (
